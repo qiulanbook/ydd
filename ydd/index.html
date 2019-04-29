@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Product Page</title>
+	<link rel="stylesheet" href="font/iconfont.css">
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/style.css">
+	<meta id="viewport" name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1,user-scalable=0">
+	<script>
+    	window.onload = window.onresize = function(){
+        var view_width = document.getElementsByTagName('html')[0].getBoundingClientRect().width;
+        var _html = document.getElementsByTagName('html')[0];
+        view_width>640?_html.style.fontSize = 640 / 16 + 'px':_html.style.fontSize = view_width / 16 + 'px';
+    }
+	</script>
+</head>
+<body>
+<!-- header头部 -->
+	<header>
+			<div class="hd_top clearfix">
+				<span class="iconfont fl sp">&#xe60b;</span>
+				<h5 class="fl">Woman, Dresses</h5>
+				<span class="iconfont fr sp2">&#xe7e7;<em>3</em></span>
+			</div>
+			<div class="hd_bottom clearfix">
+				<a href="#" class="link fl">ADD TO WISHLIST</a>
+				<a href="#" class="link2 fr">ADD TO CART</a>
+			</div>
+	</header>
+<!-- banner -->
+	<div class="banner">
+		<div class="lb">
+			<ul class="img">
+				<li><img src="images/banner.png" alt=""></li>
+				<li><img src="images/banner.png" alt=""></li>
+				<li><img src="images/banner.png" alt=""></li>
+			</ul>
+			<ul class="fk">
+				<li></li>
+				<li></li>
+				<li></li>
+			</ul>
+		</div>
+		<div class="price clearfix">
+			<p class="fl">Elegant Pink Dresses</p>
+			<a href="#" class="fr">$605,00</a>
+		</div>
+	</div>
+<!-- content 内容 -->
+	<div class="content">
+		<div class="ct_one">
+			<span class="iconfont fl">&#xe64d;</span>
+			<p class="fl">Description</p>
+		</div>
+		<div class="ct_two">
+			<div class="ct_two_t">
+				<h5>Colour:</h5>
+				<h6>Choose a colour for item</h6>
+				<ul>
+					<li class="li_a"><span><img src="images/duihao.png" alt=""></span></li>
+					<li class="li_b"><span><img src="images/duihao.png" alt=""></span></li>
+					<li class="li_c"><span><img src="images/duihao.png" alt=""></span></li>
+				</ul>
+			</div>
+			<div class="ct_two_b">
+				<h5 class="iconfont"><span>&#xe6c3;</span>Size:</h5>
+				<h6>Size available for this item</h6>
+				<ul>
+					<li class="li_w">6</li>
+					<li>8</li>
+					<li>10</li>
+					<li>12</li>
+					<li>14</li>
+				</ul>
+			</div>
+			<div class="ct_three">
+				<a href="#">Add to Cart</a>
+			</div>
+			<div class="ct_four">
+				<p>SHARE ON</p>
+			</div>
+		</div>
+	</div>
+<!-- footer -->
+	<div class="footer">
+		<img src="images/twitter.png" height="78" width="78" alt="">
+		<span>205</span>
+		<img src="images/facebook.png" height="78" width="78" alt="">
+		<span>332</span>
+		<img src="images/weibo.png" height="78" width="78" alt="">
+		<span class="w">112</span>
+	</div>
+</body>
+</html>
